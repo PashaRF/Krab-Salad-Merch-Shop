@@ -357,6 +357,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.resetLabel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Krab Salad Merch Store";
             this.Load += new System.EventHandler(this.Form1_Load);
