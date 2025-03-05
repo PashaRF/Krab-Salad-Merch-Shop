@@ -56,6 +56,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.titleLabel = new System.Windows.Forms.Label();
+            this.resetButton = new System.Windows.Forms.Button();
+            this.resetLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // shirtsLabel
@@ -100,7 +103,7 @@
             // 
             // stickersInput
             // 
-            this.stickersInput.Location = new System.Drawing.Point(259, 181);
+            this.stickersInput.Location = new System.Drawing.Point(259, 184);
             this.stickersInput.Name = "stickersInput";
             this.stickersInput.Size = new System.Drawing.Size(87, 20);
             this.stickersInput.TabIndex = 4;
@@ -199,7 +202,7 @@
             // 
             // tenderedInput
             // 
-            this.tenderedInput.Location = new System.Drawing.Point(259, 447);
+            this.tenderedInput.Location = new System.Drawing.Point(259, 445);
             this.tenderedInput.Name = "tenderedInput";
             this.tenderedInput.Size = new System.Drawing.Size(87, 20);
             this.tenderedInput.TabIndex = 14;
@@ -290,6 +293,34 @@
             this.label4.Size = new System.Drawing.Size(347, 71);
             this.label4.TabIndex = 23;
             // 
+            // titleLabel
+            // 
+            this.titleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.25F);
+            this.titleLabel.Location = new System.Drawing.Point(8, 23);
+            this.titleLabel.Name = "titleLabel";
+            this.titleLabel.Size = new System.Drawing.Size(347, 96);
+            this.titleLabel.TabIndex = 24;
+            this.titleLabel.Text = "Krab Salad \r\nMerch Store";
+            this.titleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // resetButton
+            // 
+            this.resetButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.resetButton.Location = new System.Drawing.Point(418, 559);
+            this.resetButton.Name = "resetButton";
+            this.resetButton.Size = new System.Drawing.Size(325, 29);
+            this.resetButton.TabIndex = 25;
+            this.resetButton.Text = "New Order";
+            this.resetButton.UseVisualStyleBackColor = true;
+            this.resetButton.Click += new System.EventHandler(this.resetButton_Click);
+            // 
+            // resetLabel
+            // 
+            this.resetLabel.Location = new System.Drawing.Point(406, 548);
+            this.resetLabel.Name = "resetLabel";
+            this.resetLabel.Size = new System.Drawing.Size(347, 48);
+            this.resetLabel.TabIndex = 26;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -299,6 +330,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1038, 626);
+            this.Controls.Add(this.resetButton);
+            this.Controls.Add(this.titleLabel);
             this.Controls.Add(this.shirtsLabel);
             this.Controls.Add(this.receiptLabel);
             this.Controls.Add(this.receiptButton);
@@ -323,8 +356,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
+            this.Controls.Add(this.resetLabel);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Krab Salad Merch Store";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -359,6 +393,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label titleLabel;
+        private System.Windows.Forms.Button resetButton;
+        private System.Windows.Forms.Label resetLabel;
     }
 }
 
