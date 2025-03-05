@@ -20,7 +20,7 @@ namespace Krab_Salad_Merch_Shop
 
     public partial class Form1 : Form
     {
-
+        // variables
         double shirtcost = 24.99;
         double postercost = 2.99;
         double stickercost = 1.49;
@@ -54,38 +54,38 @@ namespace Krab_Salad_Merch_Shop
             resetLabel.BackColor = Color.FromArgb(180, 255, 100, 100);
 
             // initial inputs formatting
-            label1.BackColor = Color.FromArgb(60, 255, 255, 255);
+            inputsBackLabel.BackColor = Color.FromArgb(60, 255, 255, 255);
             labelStickers.BackColor = Color.FromArgb(160, 255, 100, 100);
             shirtsLabel.BackColor = Color.FromArgb(160, 255, 100, 100);
             postersLabel.BackColor = Color.FromArgb(160, 255, 100, 100);
 
-            shirtsLabel.Parent = label1;
-            labelStickers.Parent = label1;
-            postersLabel.Parent = label1;
+            shirtsLabel.Parent = inputsBackLabel;
+            labelStickers.Parent = inputsBackLabel;
+            postersLabel.Parent = inputsBackLabel;
 
             shirtsLabel.Location = new Point(10, 5);
             labelStickers.Location = new Point(10, 35);
             postersLabel.Location = new Point(10, 65);
 
             // calculations formatting
-            label2.BackColor = Color.FromArgb(60, 255, 255, 255);
+            outputsBackLabel.BackColor = Color.FromArgb(60, 255, 255, 255);
             subtotalLabel.BackColor = Color.FromArgb(160, 255, 100, 100);
             taxLabel.BackColor = Color.FromArgb(160, 255, 100, 100);
             totalLabel.BackColor = Color.FromArgb(160, 255, 100, 100);
 
-            subtotalLabel.Parent = label2;
-            taxLabel.Parent = label2;
-            totalLabel.Parent = label2;
+            subtotalLabel.Parent = outputsBackLabel;
+            taxLabel.Parent = outputsBackLabel;
+            totalLabel.Parent = outputsBackLabel;
 
             subtotalLabel.Location = new Point(10, 5);
             taxLabel.Location = new Point(10, 35);
             totalLabel.Location = new Point(10, 65);
 
             // Outputs formatting
-            subtotalOutput.Parent = label2;
-            taxOutput.Parent = label2;
-            totalOutput.Parent = label2;
-            changeOutput.Parent = label4;
+            subtotalOutput.Parent = outputsBackLabel;
+            taxOutput.Parent = outputsBackLabel;
+            totalOutput.Parent = outputsBackLabel;
+            changeOutput.Parent = changeBackLabel;
 
             subtotalOutput.BackColor = Color.FromArgb(200, 255, 255, 255);
             taxOutput.BackColor = Color.FromArgb(200, 255, 255, 255);
@@ -99,18 +99,18 @@ namespace Krab_Salad_Merch_Shop
 
 
             //tendered formatting
-            label3.BackColor = Color.FromArgb(60, 255, 255, 255);
+            tenderedBackLabel.BackColor = Color.FromArgb(60, 255, 255, 255);
             tenderedLabel.BackColor = Color.FromArgb(160, 255, 100, 100);
 
-            tenderedLabel.Parent = label3;
+            tenderedLabel.Parent = tenderedBackLabel;
 
             tenderedLabel.Location = new Point(10, 5);
 
             //change formatting
-            label4.BackColor = Color.FromArgb(60, 255, 255, 255);
+            changeBackLabel.BackColor = Color.FromArgb(60, 255, 255, 255);
             changeLabel.BackColor = Color.FromArgb(160, 255, 100, 100);
 
-            changeLabel.Parent = label4;
+            changeLabel.Parent = changeBackLabel;
 
             changeLabel.Location = new Point(10, 5);
 

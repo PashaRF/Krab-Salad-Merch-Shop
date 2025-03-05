@@ -52,10 +52,10 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.receiptLabel = new System.Windows.Forms.Label();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.inputsBackLabel = new System.Windows.Forms.Label();
+            this.outputsBackLabel = new System.Windows.Forms.Label();
+            this.tenderedBackLabel = new System.Windows.Forms.Label();
+            this.changeBackLabel = new System.Windows.Forms.Label();
             this.titleLabel = new System.Windows.Forms.Label();
             this.resetButton = new System.Windows.Forms.Button();
             this.resetLabel = new System.Windows.Forms.Label();
@@ -265,33 +265,33 @@
             this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             // 
-            // label1
+            // inputsBackLabel
             // 
-            this.label1.Location = new System.Drawing.Point(8, 140);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(347, 150);
-            this.label1.TabIndex = 20;
+            this.inputsBackLabel.Location = new System.Drawing.Point(8, 140);
+            this.inputsBackLabel.Name = "inputsBackLabel";
+            this.inputsBackLabel.Size = new System.Drawing.Size(347, 150);
+            this.inputsBackLabel.TabIndex = 20;
             // 
-            // label2
+            // outputsBackLabel
             // 
-            this.label2.Location = new System.Drawing.Point(8, 320);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(347, 100);
-            this.label2.TabIndex = 21;
+            this.outputsBackLabel.Location = new System.Drawing.Point(8, 320);
+            this.outputsBackLabel.Name = "outputsBackLabel";
+            this.outputsBackLabel.Size = new System.Drawing.Size(347, 100);
+            this.outputsBackLabel.TabIndex = 21;
             // 
-            // label3
+            // tenderedBackLabel
             // 
-            this.label3.Location = new System.Drawing.Point(8, 432);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(347, 80);
-            this.label3.TabIndex = 22;
+            this.tenderedBackLabel.Location = new System.Drawing.Point(8, 432);
+            this.tenderedBackLabel.Name = "tenderedBackLabel";
+            this.tenderedBackLabel.Size = new System.Drawing.Size(347, 80);
+            this.tenderedBackLabel.TabIndex = 22;
             // 
-            // label4
+            // changeBackLabel
             // 
-            this.label4.Location = new System.Drawing.Point(7, 527);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(347, 71);
-            this.label4.TabIndex = 23;
+            this.changeBackLabel.Location = new System.Drawing.Point(7, 527);
+            this.changeBackLabel.Name = "changeBackLabel";
+            this.changeBackLabel.Size = new System.Drawing.Size(347, 71);
+            this.changeBackLabel.TabIndex = 23;
             // 
             // titleLabel
             // 
@@ -352,10 +352,10 @@
             this.Controls.Add(this.shirtsInput);
             this.Controls.Add(this.postersLabel);
             this.Controls.Add(this.labelStickers);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.inputsBackLabel);
+            this.Controls.Add(this.outputsBackLabel);
+            this.Controls.Add(this.tenderedBackLabel);
+            this.Controls.Add(this.changeBackLabel);
             this.Controls.Add(this.resetLabel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
@@ -390,10 +390,10 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Label receiptLabel;
         private System.Windows.Forms.ImageList imageList1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label inputsBackLabel;
+        private System.Windows.Forms.Label outputsBackLabel;
+        private System.Windows.Forms.Label tenderedBackLabel;
+        private System.Windows.Forms.Label changeBackLabel;
         private System.Windows.Forms.Label titleLabel;
         private System.Windows.Forms.Button resetButton;
         private System.Windows.Forms.Label resetLabel;
