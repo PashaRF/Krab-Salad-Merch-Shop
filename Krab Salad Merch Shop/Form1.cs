@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TaskbarClock;
 
 
@@ -208,6 +209,9 @@ namespace Krab_Salad_Merch_Shop
                 resetButton.Size = new Size(0, 0);
                 resetLabel.Size = new Size(0, 0);
                 this.Size = new Size(830, 650);
+
+                SoundPlayer printSound = new SoundPlayer(Properties.Resources.printSound);
+                printSound.Play();
 
                 receiptLabel.Size = new Size(395, 22);
                 receiptLabel.Text = "----------Have a nice day!!!----------";
