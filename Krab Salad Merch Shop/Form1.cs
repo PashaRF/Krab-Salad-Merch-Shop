@@ -408,15 +408,15 @@ namespace Krab_Salad_Merch_Shop
 
             receiptLabel.Size = new Size(395, 0);
 
-            double total = 0;
-            double change = 0;
-            double tendered = 0;
-            double tax = 0;
-            double subtotal = 0;
+            total = 0;
+            change = 0;
+            tendered = 0;
+            tax = 0;
+            subtotal = 0;
 
-            double numshirts = 0;
-            double numposters = 0;
-            double numstickers = 0;
+            numshirts = 0;
+            numposters = 0;
+            numstickers = 0;
 
             totalOutput.Text = $"";
             subtotalOutput.Text = $"";
